@@ -152,6 +152,7 @@ class InAppPurchaseAndroidPlatform extends InAppPurchasePlatform {
           product: purchaseParam.productDetails.id,
           offerToken: offerToken,
           accountId: purchaseParam.applicationUserName,
+          obfuscatedProfileId: purchaseParam.androidProfileId,
           oldProduct: changeSubscriptionParam?.oldPurchaseDetails.productID,
           purchaseToken: changeSubscriptionParam
               ?.oldPurchaseDetails.verificationData.serverVerificationData,
